@@ -78,17 +78,17 @@
 	<div class="info">
 		<h2>资讯新闻<a href="">更多>></a></h2>
 		<ul>
-			<li><a href="">航天二院：打造ICT服务前沿品牌...</a></li>
-			<li><a href="">航天二院：打造ICT服务前沿品牌...</a></li>
-			<li><a href="">航天二院：打造ICT服务前沿品牌打造ICT服务前沿品牌...</a></li>
+			<li><a href="">xxxx：打造ICT服务前沿品牌...</a></li>
+			<li><a href="">xxxx：打造ICT服务前沿品牌...</a></li>
+			<li><a href="">xxxx：打造ICT服务前沿品牌打造ICT服务前沿品牌...</a></li>
 		</ul>
 		<h2>业务使用指南<a href="">更多>></a></h2>
 		<ul>
-			<li><a href="">航天二院：打造ICT服务前沿品牌...</a></li>
-			<li><a href="">航天二院：打造ICT服务前沿品牌...</a></li>
-			<li><a href="">航天二院：打造ICT服务前沿品牌...</a></li>
-			<li><a href="">航天二院：打造ICT服务前沿品牌...</a></li>
-			<li><a href="">航天二院：打造ICT服务前沿品牌...</a></li>
+			<li><a href="">xxxx：打造ICT服务前沿品牌...</a></li>
+			<li><a href="">xxxx：打造ICT服务前沿品牌...</a></li>
+			<li><a href="">xxxx：打造ICT服务前沿品牌...</a></li>
+			<li><a href="">xxxx：打造ICT服务前沿品牌...</a></li>
+			<li><a href="">xxxx：打造ICT服务前沿品牌...</a></li>
 		</ul>
 	</div>
 </div>
@@ -97,8 +97,8 @@
 <div class="full">
 	<div class="container footer">
 		<p><a href="">法律声明</a><span>|</span><a href="">网站地图</a></p>
-		<p>掌上营业厅：www.etcom.cn 客户服务电话：手机营业厅下载</p>
-		<p>北京航天情报与信息研究所 版权所有 Copyright © 2010-2025 </p>
+		<p>掌上营业厅：www.xxcom.cn 客户服务电话：手机营业厅下载</p>
+		<p>北京某某情报与信息研究所 版权所有 Copyright © 2010-2025 </p>
 	</div>
 </div>
 </body>
