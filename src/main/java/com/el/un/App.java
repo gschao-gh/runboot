@@ -1,17 +1,21 @@
 package com.el.un;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 
 /**
  * Hello world!
  *
  */
-@RestController
-public class App {
 
-    @RequestMapping("/hello")
+public class App {
+    private static Logger LOGGER = LogManager.getLogger(App.class);
+
     String home() {
+        LOGGER.info("hello world");
+
         return "Hello World!";
     }
 }
