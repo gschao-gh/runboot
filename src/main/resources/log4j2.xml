@@ -19,7 +19,7 @@
         </RollingFile>
     </appenders>
     <loggers>
-        <logger name="com.el.quartz" level="info" additivity="false">
+        <logger name="com.el" level="info" additivity="false">
             <appender-ref ref="Console"/>
             <appender-ref ref="log"/>
             <appender-ref ref="RollingFile"/>

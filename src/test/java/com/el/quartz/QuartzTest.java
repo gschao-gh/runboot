@@ -24,9 +24,9 @@ public class QuartzTest {
             logger.warn("Grab the Scheduler instance from the Factory");
             // Grab the Scheduler instance from the Factory
             Scheduler scheduler = StdSchedulerFactory.getDefaultScheduler();
-            JobDetail job = newJob(MyTaskJob.class)
+         /*   JobDetail job = newJob(MyTaskJob.class)
                     .withIdentity("job1", "group1")
-                    .build();
+                    .build();*/
 
             // Trigger the job to run now, and then repeat every 40 seconds
             Trigger trigger = newTrigger()
@@ -38,7 +38,7 @@ public class QuartzTest {
                     .build();
 
             // Tell quartz to schedule the job using our trigger
-            scheduler.scheduleJob(job, trigger);
+//            scheduler.scheduleJob(job, trigger);
             // and start it off
             scheduler.start();
 //            scheduler.shutdown();

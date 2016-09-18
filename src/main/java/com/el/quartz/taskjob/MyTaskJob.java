@@ -12,13 +12,15 @@ import org.springframework.context.annotation.Bean;
  * Created by Administrator on 2016/9/14.
  */
 
-public class MyTaskJob {
+public class MyTaskJob implements Job{
 
-    private static Logger LOGGER = LogManager.getLogger(MyTaskJob.class);
+    private static Logger logger = LogManager.getLogger(MyTaskJob.class);
 
 
-    public void run(){
-        LOGGER.info("定时任务---start:"+ DateUtils.getSystime());
-        System.out.println("定时任务---start:"+ DateUtils.getSystime());
+    @Override
+    public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
+        logger.error("###error定时任务---start:"+ DateUtils.getSystime());
+        logger.info("###info定时任务---start:"+ DateUtils.getSystime());
+        logger.debug("###debug定时任务---start:"+ DateUtils.getSystime());
     }
 }
